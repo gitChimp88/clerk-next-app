@@ -10,6 +10,13 @@ First, run
 npm install
 ```
 
+Create an `env.local` file and paste in the following environment variables with your credentials
+
+```
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<YOUR PUBLIC KEY>
+CLERK_SECRET_KEY=<YOUR SECRET KEY>
+```
+
 Then run the development server:
 
 ```bash
