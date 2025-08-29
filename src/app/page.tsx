@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main style={{ padding: 24 }}>
       <SignedOut>
-        <SignInButton mode="modal" afterSignInUrl="/dashboard">
+        <SignInButton mode="modal" forceRedirectUrl="/dashboard">
           <button>Sign in</button>
         </SignInButton>
       </SignedOut>
